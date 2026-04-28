@@ -16,6 +16,8 @@ public class StudentController {
     private StudentService service;
 
     // ✅ GET all students
+    
+  
     @GetMapping("/students")
     public List<Student> getAllStudents() {
         return service.getAllStudents();
